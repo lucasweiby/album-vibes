@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Logo } from "../Logo";
+import { Logo } from "@/components/Logo";
 
 export function Footer() {
   const { t } = useTranslation();
