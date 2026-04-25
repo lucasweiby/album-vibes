@@ -29,13 +29,8 @@ export function Navbar() {
             : "")
         }
       >
-        <a href="#top" className="flex items-center gap-2 py-2">
-          <span className="text-primary">
-            <Logo size={26} />
-          </span>
-          <span className="font-semibold tracking-tight text-foreground">
-            After House
-          </span>
+        <a href="#top" className="flex items-center py-2 text-foreground">
+          <Logo height={22} />
         </a>
 
         <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">

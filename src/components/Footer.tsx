@@ -8,9 +8,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="grid md:grid-cols-4 gap-12">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2">
-              <span className="text-primary"><Logo size={28} /></span>
-              <span className="font-semibold tracking-tight text-lg">After House</span>
+            <div className="text-foreground">
+              <Logo height={28} />
             </div>
             <p className="mt-4 text-muted-foreground max-w-xs">{t("footer.tagline")}</p>
           </div>
