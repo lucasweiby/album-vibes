@@ -18,7 +18,7 @@ export function Navbar() {
     <header
       className={
         "fixed inset-x-0 top-0 z-50 transition-all duration-500 " +
-        (scrolled ? "py-3" : "py-5")
+        (scrolled ? "py-4" : "py-7")
       }
     >
       <div
@@ -29,8 +29,8 @@ export function Navbar() {
             : "")
         }
       >
-        <a href="#top" className="flex items-center py-2 text-foreground">
-          <Logo height={22} />
+        <a href="#top" className="flex items-center py-3 text-foreground">
+          <Logo height={28} />
         </a>
 
         <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
