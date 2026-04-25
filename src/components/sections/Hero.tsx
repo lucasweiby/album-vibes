@@ -37,10 +37,10 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/70 to-background" />
       </motion.div>
 
-      {/* Glow blobs */}
+      {/* Glow blobs — subtle ambient light */}
       <div className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute left-1/2 top-1/3 h-[600px] w-[900px] -translate-x-1/2 rounded-full bg-primary/25 blur-[180px] animate-pulse-glow" />
-        <div className="absolute right-0 top-0 h-[400px] w-[500px] rounded-full bg-primary/15 blur-[120px]" />
+        <div className="absolute left-1/2 top-1/3 h-[600px] w-[900px] -translate-x-1/2 rounded-full bg-primary/[0.07] blur-[180px] animate-pulse-glow" />
+        <div className="absolute right-0 top-0 h-[400px] w-[500px] rounded-full bg-white/[0.03] blur-[120px]" />
       </div>
 
       <div className="mx-auto max-w-7xl px-4 md:px-6">
@@ -77,7 +77,7 @@ export function Hero() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="block text-ember italic"
+                className="block text-gradient italic"
               >
                 {t("hero.title3")}
               </motion.span>
@@ -123,7 +123,7 @@ export function Hero() {
             transition={{ duration: 1.2, delay: 0.4, ease: "easeOut" }}
             className="lg:col-span-5 relative mx-auto max-w-sm"
           >
-            <div className="absolute -inset-8 bg-primary/30 blur-3xl rounded-full" />
+            <div className="absolute -inset-8 bg-primary/10 blur-3xl rounded-full" />
             <div className="relative animate-float">
               <div className="rounded-[3rem] glass-strong p-3 shadow-elegant">
                 <img

@@ -34,7 +34,7 @@ export function AppPreview() {
           </Reveal>
 
           <div className="relative h-[640px]">
-            <div className="absolute inset-0 ember-glow opacity-60" />
+            <div className="absolute inset-0 ember-glow opacity-20" />
             <motion.div
               style={{ y: y1 }}
               className="absolute left-0 top-10 w-[55%] rounded-[2.5rem] glass-strong p-2.5 shadow-elegant rotate-[-6deg]"
