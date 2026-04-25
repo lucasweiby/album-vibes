@@ -16,7 +16,7 @@ export function Stats() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((s, i) => (
             <Reveal key={s.key} delay={i * 0.08} className="text-center">
-              <div className="font-display text-5xl md:text-6xl font-bold tracking-tightest text-ember">
+              <div className="font-display text-5xl md:text-6xl font-bold tracking-tightest text-gradient">
                 {s.value}
               </div>
               <div className="mt-2 text-xs uppercase tracking-widest text-muted-foreground">

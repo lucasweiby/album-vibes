@@ -34,9 +34,9 @@ export function Events() {
                   href="#"
                   className="group glass rounded-3xl p-6 flex flex-col h-full hover:bg-white/[0.06] transition-all relative overflow-hidden"
                 >
-                  <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-primary/20 blur-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-primary/10 blur-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
                   <div className="relative flex items-start justify-between mb-8">
-                    <div className="rounded-2xl bg-primary text-primary-foreground px-4 py-3 text-center min-w-[70px]">
+                    <div className="rounded-2xl glass-strong text-foreground px-4 py-3 text-center min-w-[70px] group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                       <div className="font-display text-2xl font-bold leading-none">
                         {day}
                       </div>
