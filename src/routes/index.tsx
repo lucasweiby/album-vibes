@@ -8,6 +8,7 @@ import { AppPreview } from "@/components/sections/AppPreview";
 import { Events } from "@/components/sections/Events";
 import { CTA } from "@/components/sections/CTA";
 import { Footer } from "@/components/Footer";
+import { CookieConsent } from "@/components/CookieConsent";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -43,6 +44,7 @@ function Index() {
         <CTA />
       </main>
       <Footer />
+      <CookieConsent />
     </div>
   );
 }

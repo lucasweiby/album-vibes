@@ -78,6 +78,14 @@ const resources = {
         legal: "Legal",
         rights: "All rights reserved.",
       },
+      cookies: {
+        title: "We use cookies",
+        description:
+          "We use cookies to improve your experience, remember your language, and understand how After House is used. By continuing, you agree to our use of cookies.",
+        accept: "Accept all",
+        decline: "Decline",
+        close: "Close",
+      },
     },
   },
   pt: {
@@ -155,6 +163,14 @@ const resources = {
         legal: "Legal",
         rights: "Todos os direitos reservados.",
       },
+      cookies: {
+        title: "Usamos cookies",
+        description:
+          "Usamos cookies para melhorar sua experiência, lembrar seu idioma e entender como o After House é usado. Ao continuar, você concorda com o uso de cookies.",
+        accept: "Aceitar todos",
+        decline: "Recusar",
+        close: "Fechar",
+      },
     },
   },
   de: {
@@ -231,6 +247,14 @@ const resources = {
         company: "Unternehmen",
         legal: "Rechtliches",
         rights: "Alle Rechte vorbehalten.",
+      },
+      cookies: {
+        title: "Wir verwenden Cookies",
+        description:
+          "Wir verwenden Cookies, um deine Erfahrung zu verbessern, deine Sprache zu speichern und zu verstehen, wie After House genutzt wird. Indem du fortfährst, stimmst du der Verwendung von Cookies zu.",
+        accept: "Alle akzeptieren",
+        decline: "Ablehnen",
+        close: "Schließen",
       },
     },
   },
