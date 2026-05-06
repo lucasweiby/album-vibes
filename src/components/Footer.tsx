@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
+import privacyPolice from "@/assets/AfterHouse - Politica de Privacidade.pdf";
 
 export function Footer() {
   const { t } = useTranslation();
@@ -18,9 +19,17 @@ export function Footer() {
               {t("footer.product")}
             </div>
             <ul className="space-y-2 text-sm">
-              <li><a href="#features" className="hover:text-primary transition">{t("nav.features")}</a></li>
-              <li><a href="#preview" className="hover:text-primary transition">{t("nav.community")}</a></li>
-              <li><a href="#events" className="hover:text-primary transition">{t("nav.events")}</a></li>
+              <li>
+                <a href="#features" className="hover:text-primary transition">
+                  {t("nav.features")}
+                </a>
+              </li>
+              <li>
+                <a href="#preview" className="hover:text-primary transition">
+                  {t("nav.community")}
+                </a>
+              </li>
+              {/* <li><a href="#events" className="hover:text-primary transition">{t("nav.events")}</a></li> */}
             </ul>
           </div>
           <div>
@@ -28,14 +37,28 @@ export function Footer() {
               {t("footer.legal")}
             </div>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-primary transition">Privacy</a></li>
-              <li><a href="#" className="hover:text-primary transition">Terms</a></li>
-              <li><a href="#" className="hover:text-primary transition">Cookies</a></li>
+              <li>
+                <a href={privacyPolice} className="hover:text-primary transition" target="_blank">
+                  Privacy
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary transition">
+                  Terms
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary transition">
+                  Cookies
+                </a>
+              </li>
             </ul>
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-white/5 text-xs text-muted-foreground flex flex-col md:flex-row justify-between gap-2">
-          <span>© {new Date().getFullYear()} After House. {t("footer.rights")}</span>
+          <span>
+            © {new Date().getFullYear()} After House. {t("footer.rights")}
+          </span>
           <span>Made for the night.</span>
         </div>
       </div>

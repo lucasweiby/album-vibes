@@ -17,16 +17,9 @@ export function Hero() {
   const phoneY = useTransform(scrollYProgress, [0, 1], [0, -100]);
 
   return (
-    <section
-      id="top"
-      ref={ref}
-      className="relative min-h-screen overflow-hidden pt-32 pb-20"
-    >
+    <section id="top" ref={ref} className="relative min-h-screen overflow-hidden pt-32 pb-20">
       {/* Background image with mask */}
-      <motion.div
-        style={{ y, opacity }}
-        className="absolute inset-0 -z-10"
-      >
+      <motion.div style={{ y, opacity }} className="absolute inset-0 -z-10">
         <img
           src={heroImg}
           alt=""
@@ -125,12 +118,8 @@ export function Hero() {
           >
             <div className="absolute -inset-8 bg-primary/10 blur-3xl rounded-full" />
             <div className="relative animate-float">
-              <div className="rounded-[3rem] glass-strong p-3 shadow-elegant">
-                <img
-                  src={appHome}
-                  alt="After House app"
-                  className="rounded-[2.4rem] w-full"
-                />
+              <div className="rounded-[3rem] p-3">
+                <img src={appHome} alt="After House app" className="rounded-[2.4rem] w-full" />
               </div>
             </div>
           </motion.div>

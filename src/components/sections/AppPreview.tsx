@@ -4,7 +4,8 @@ import { useRef } from "react";
 import { Reveal } from "../Reveal";
 import appHome from "@/assets/app-home.png";
 import appLogin from "@/assets/app-login.png";
-import appProfile from "@/assets/app-profile.png";
+import appSearch from "@/assets/app-search.png";
+import appRate from "@/assets/app-rate.png";
 
 export function AppPreview() {
   const { t } = useTranslation();
@@ -37,21 +38,36 @@ export function AppPreview() {
             <div className="absolute inset-0 ember-glow opacity-20" />
             <motion.div
               style={{ y: y1 }}
-              className="absolute left-0 top-10 w-[55%] rounded-[2.5rem] glass-strong p-2.5 shadow-elegant rotate-[-6deg]"
+              className="absolute left-0 top-10 w-[55%] rounded-[2.5rem] p-2.5 rotate-[-6deg]"
             >
-              <img src={appLogin} alt="Login screen" className="rounded-[2rem] w-full" loading="lazy" />
+              <img
+                src={appLogin}
+                alt="Login screen"
+                className="rounded-[2rem] w-full"
+                loading="lazy"
+              />
             </motion.div>
             <motion.div
               style={{ y: y2 }}
-              className="absolute right-0 top-0 w-[55%] rounded-[2.5rem] glass-strong p-2.5 shadow-elegant rotate-[5deg] z-10"
+              className="absolute right-0 top-0 w-[55%] rounded-[2.5rem] p-2.5 rotate-[5deg] z-10"
             >
-              <img src={appHome} alt="Home screen" className="rounded-[2rem] w-full" loading="lazy" />
+              <img
+                src={appRate}
+                alt="Home screen"
+                className="rounded-[2rem] w-full"
+                loading="lazy"
+              />
             </motion.div>
             <motion.div
               style={{ y: y3 }}
-              className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[55%] rounded-[2.5rem] glass-strong p-2.5 shadow-elegant rotate-[2deg]"
+              className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[55%] rounded-[2.5rem] p-2.5 rotate-[2deg]"
             >
-              <img src={appProfile} alt="Profile screen" className="rounded-[2rem] w-full" loading="lazy" />
+              <img
+                src={appSearch}
+                alt="Search screen"
+                className="rounded-[2rem] w-full"
+                loading="lazy"
+              />
             </motion.div>
           </div>
         </div>

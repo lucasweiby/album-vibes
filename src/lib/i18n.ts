@@ -69,7 +69,7 @@ const resources = {
         title: "Your next favorite album is one tap away.",
         desc: "Join thousands of listeners building the most honest music community on the internet.",
         button: "Download free",
-        note: "Available on iOS & Android",
+        note: "Available for iOS",
       },
       footer: {
         tagline: "The place music deserves.",
@@ -77,6 +77,14 @@ const resources = {
         company: "Company",
         legal: "Legal",
         rights: "All rights reserved.",
+      },
+      cookies: {
+        title: "We use cookies",
+        description:
+          "We use cookies to improve your experience, remember your language, and understand how After House is used. By continuing, you agree to our use of cookies.",
+        accept: "Accept all",
+        decline: "Decline",
+        close: "Close",
       },
     },
   },
@@ -146,7 +154,7 @@ const resources = {
         title: "Seu próximo álbum favorito está a um toque.",
         desc: "Junte-se a milhares de ouvintes construindo a comunidade musical mais honesta da internet.",
         button: "Baixar grátis",
-        note: "Disponível em iOS e Android",
+        note: "Disponível para iOS",
       },
       footer: {
         tagline: "O lugar que a música merece.",
@@ -154,6 +162,14 @@ const resources = {
         company: "Empresa",
         legal: "Legal",
         rights: "Todos os direitos reservados.",
+      },
+      cookies: {
+        title: "Usamos cookies",
+        description:
+          "Usamos cookies para melhorar sua experiência, lembrar seu idioma e entender como o After House é usado. Ao continuar, você concorda com o uso de cookies.",
+        accept: "Aceitar todos",
+        decline: "Recusar",
+        close: "Fechar",
       },
     },
   },
@@ -223,7 +239,7 @@ const resources = {
         title: "Dein nächstes Lieblingsalbum ist nur einen Tap entfernt.",
         desc: "Schließe dich Tausenden von Hörern in der ehrlichsten Musikcommunity an.",
         button: "Kostenlos laden",
-        note: "Für iOS und Android",
+        note: "Verfügbar für iOS",
       },
       footer: {
         tagline: "Der Ort, den Musik verdient.",
@@ -231,6 +247,14 @@ const resources = {
         company: "Unternehmen",
         legal: "Rechtliches",
         rights: "Alle Rechte vorbehalten.",
+      },
+      cookies: {
+        title: "Wir verwenden Cookies",
+        description:
+          "Wir verwenden Cookies, um deine Erfahrung zu verbessern, deine Sprache zu speichern und zu verstehen, wie After House genutzt wird. Indem du fortfährst, stimmst du der Verwendung von Cookies zu.",
+        accept: "Alle akzeptieren",
+        decline: "Ablehnen",
+        close: "Schließen",
       },
     },
   },
